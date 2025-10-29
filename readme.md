@@ -9,6 +9,7 @@ Esta actividad aplica los entornos virtuales *(venv)* de Python, utilizandolos p
 ---
 
 ## Clonación y Ejecución
+### Esta guía da por hecho que tu sistema usa Bash o algún interprete de el mismo, como puede ser Git Bash en el caso de Windows
 
 ### Se recomienda hacer un entorno virtual por cada proyecto
 

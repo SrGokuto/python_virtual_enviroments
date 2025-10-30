@@ -9,7 +9,7 @@ Esta actividad aplica los entornos virtuales *(venv)* de Python, utilizandolos p
 ---
 
 ## Clonación y Ejecución
-### Esta guía da por hecho que tu sistema usa Bash o algún interprete de el mismo, como puede ser Git Bash en el caso de Windows
+### Esta guía da por hecho que usas Linux o WSL, si estás usando Windows base, el proceso varía ligeramente
 
 ### Se recomienda hacer un entorno virtual por cada proyecto
 
@@ -26,6 +26,7 @@ git clone https://github.com/SrGokuto/python_virtual_enviroments.git
 ```bash
 cd proyecto_a #Entramos a la carpeta de el proyecto, en este caso, proyecto_a
 python -m venv venv_1 #Creamos el entorno virtual 1
+source ./venv_1/bin/activate #Activamos dicho entorno virtual
 pip install -r requirements.txt #Instalamos dependencias
 ```
 
@@ -50,6 +51,7 @@ jupyter-lab
 ```bash
 cd proyecto_b #Entramos a la carpeta de el proyecto, en este caso, proyecto_b
 python -m venv venv_2 #Creamos el entorno virtual 2
+source ./venv_2/bin/activate #Activamos dicho entorno virtual
 pip install -r requirements.txt #Instalamos dependencias
 ```
 

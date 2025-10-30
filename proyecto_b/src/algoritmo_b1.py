@@ -71,7 +71,7 @@ def main():
     df_analyzed = analyze_sales(df)
     
     # Export to CSV (optional)
-    output_file = 'analisis_ventas.csv'
+    output_file = './analisis_ventas.csv'
     df_analyzed.to_csv(output_file, index=False)
     print(f"\n{'=' * 60}")
     print(f"Análisis guardado en: {output_file}")

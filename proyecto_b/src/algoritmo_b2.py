@@ -112,7 +112,7 @@ def generate_report(df, output_filename):
 def main():
     """Main function to run the algorithm"""
     # Input and output files
-    input_file = 'estudiantes.csv'
+    input_file = './src/estudiantes.csv'
     output_file = 'reporte_estudiantes.csv'
     
     # Load data

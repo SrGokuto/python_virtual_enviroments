@@ -5,14 +5,38 @@
 ### Version de Python utilizada: 3.13.7
 
 Esta actividad aplica los entornos virtuales *(venv)* de Python, utilizandolos para hacer dos proyectos *(proyecto_a y proyecto_b)* con distintos paquetes cada uno, separados por entornos virtuales.
-```
 
-```
 
 ---
 
 ## Estructura General del proyecto
-
+```
+.
+├── img
+│   ├── creacion_proyecto_a.png
+│   ├── creacion_proyecto_b.png
+│   ├── ejecucion_1_proyecto_a.png
+│   ├── ejecucion_1_proyecto_b.png
+│   ├── ejecucion_2_proyecto_a.png
+│   ├── estructura_general.png
+│   ├── requirements_proyecto_a.png
+│   └── requirements_proyecto_b.png
+├── LICENSE
+├── proyecto_a
+│   ├── requirements.txt
+│   └── src
+│       ├── algoritmo_a.py
+│       └── notebook_example.ipynb
+├── proyecto_b
+│   ├── analisis_ventas.csv
+│   ├── requirements.txt
+│   └── src
+│       ├── algoritmo_b1.py
+│       ├── algoritmo_b2.py
+│       ├── analisis_ventas.csv
+│       └── estudiantes.csv
+└── readme.md
+```
 
 ---
 ## Clonación y Ejecución
@@ -48,7 +72,7 @@ python ./src/algoritmo_a.py
 jupyter-lab
 ```
 
-**Esto abrirá Jupyter Lab en el navegador por defecto, desde ahí se puede ejecutar el notebook *notebook_example.ipynb* con total normalidad**
+**Esto abrirá Jupyter Lab en el navegador por defecto, desde ahí se puede ejecutar el notebook *./src/notebook_example.ipynb* con total normalidad**
 
 ---
 

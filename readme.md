@@ -125,7 +125,7 @@ python ./src/algoritmo_b2.py
 
 
 
-*Cambiate a Linux, todo es mejor de este lado ツ*
-*Me parece criminal que python no respete las rutas relativas, que clase de barbaridad es esa*
-*Encima da a entender como que lo hace pero a veces las respeta y a veces no, dios santisimo*
-*Quizas es mi problema, idk*
+*Cambiate a Linux, todo es mejor de este lado ツ*\
+*Me parece criminal que python no respete las rutas relativas, que clase de barbaridad es esa*\
+*Encima da a entender como que lo hace pero a veces las respeta y a veces no, dios santisimo*\
+*Quizas es problema mio, idk*
